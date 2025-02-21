@@ -1,4 +1,4 @@
-package projet.BalleDeTennis.model;
+package projet.bulbi.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Player {
+public class Pokemon {
 
     @Id //=> Cette annotation indique que l'id est la clé primaire
     @GeneratedValue(strategy = GenerationType.IDENTITY)  //=> La clé primaire sera générée automatiquement par la BDD lors de l'insertion d'un nouveau joueur
@@ -15,10 +15,10 @@ public class Player {
     private String lastName;
     private int age;
 
-    public Player() {
+    public Pokemon() {
     }
 
-    public Player(Long id, String firstName, String lastName, int age) {
+    public Pokemon(Long id, String firstName, String lastName, int age) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

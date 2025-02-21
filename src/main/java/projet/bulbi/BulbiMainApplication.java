@@ -1,15 +1,14 @@
-package projet.BalleDeTennis;
+package projet.bulbi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication()
-public class BalleDeTennisApplication {
+public class BulbiMainApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(
-				BalleDeTennisApplication.class, args);
+				BulbiMainApplication.class, args);
 	}
 
 }

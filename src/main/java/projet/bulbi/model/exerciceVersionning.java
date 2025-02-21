@@ -1,4 +1,4 @@
-package projet.BalleDeTennis.model;
+package projet.bulbi.model;
 
 import java.util.Date;
 
@@ -15,16 +15,6 @@ public class exerciceVersionning {
         this.dateNaissance = dateNaissance;
     }
 
-
-
-    public void methode1 {
-        System.out.println("Methode1");
-    }
-
-
-    public void methode2 {
-        System.out.println("Methode");
-    }
 
 
     public Date getDateNaissance() {

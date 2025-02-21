@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>projet</groupId>
-	<artifactId>BalleDeTennis</artifactId>
+	<artifactId>Bulbi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BalleDeTennis</name>
-	<description>Projet Balle de Tennis, ranking ATP</description>
+	<name>Bulbi</name>
+	<description>Pokemon</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
