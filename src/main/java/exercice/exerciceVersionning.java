@@ -1,4 +1,4 @@
-package projet.bulbi.model;
+package exercice;
 
 import java.util.Date;
 

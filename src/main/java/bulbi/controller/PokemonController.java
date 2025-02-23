@@ -1,8 +1,8 @@
-package projet.bulbi.controller;
+package bulbi.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import projet.bulbi.services.PokemonService;
+import bulbi.services.PokemonService;
 
 @RestController
 @RequestMapping("/api/players")
@@ -13,6 +13,7 @@ public class PokemonController {
     public PokemonController(PokemonService pokemonService) {
         this.pokemonService = pokemonService;
     }
+
 
 
 }

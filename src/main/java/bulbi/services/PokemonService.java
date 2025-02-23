@@ -1,8 +1,8 @@
-package projet.bulbi.services;
+package bulbi.services;
 
+import bulbi.dto.PokemonDto;
 import org.springframework.stereotype.Service;
-import projet.bulbi.model.Pokemon;
-import projet.bulbi.repository.PokemonRepository;
+import bulbi.repository.PokemonRepository;
 
 @Service
 public class PokemonService {
@@ -12,5 +12,12 @@ public class PokemonService {
     public PokemonService(PokemonRepository pokemonRepository) {
         this.pokemonRepository = pokemonRepository;
     }
+
+
+/*     private PokemonDto createPokemon() {
+
+     }*/
+
+
 
 }

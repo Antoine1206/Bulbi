@@ -1,0 +1,6 @@
+CREATE TABLE pokemon (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    height DECIMAL(5,2),
+    weight DECIMAL(5,2)
+);
